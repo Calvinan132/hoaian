@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, #8360c3, #2ebf91);
+}
+
+#wrapper {
+  padding: 20px 9%;
+}
+#header {
+  position: relative;
+}
+.Logo {
+  position: absolute;
+  left: 0;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 40px;
+  font-weight: 600;
+  border: 1px solid aqua;
+}
+#Nav {
+  position: absolute;
+  right: 30px;
+  position: fixed;
+  background-color: black;
+  line-height: 46px;
+  border-radius: 15px;
+  border: 3px solid rgba(0, 255, 127, 0.6);
+}
+#Nav li {
+  display: inline-block;
+  padding: 0 24px;
+  font-size: 15px;
+  font-weight: bolder;
+}
+#Nav li:hover {
+  background-color: rgba(255, 255, 255, 0.337);
+  border-radius: 10px;
+  text-decoration: underline;
+  color: aqua;
+}
+#Nav li .icon-game {
+  padding: 2px;
+}
+
+#Nav li a {
+  color: aqua;
+  list-style-type: none;
+  text-decoration: none;
+}
+/* End - header */
+
+.Home {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  padding: 60px 9% 0;
+  color: white;
+}
+.Home-info h1 {
+  font-size: 55px;
+}
+
+.Home-info h2 {
+  font-size: 32px;
+  margin-top: -10px;
+}
+.Home-info p {
+  font-size: 16px;
+  margin: 10px 0 25px;
+}
