@@ -1,0 +1,19 @@
+#form-signup {
+  width: 250px;
+  height: 250px;
+  border: 2px solid grey;
+  border-radius: 12px;
+  box-sizing: border-box;
+  text-align: center;
+  background: rgba(51, 168, 86, 0.4);
+}
+
+h1 {
+  text-align: center;
+}
+.form-submit,
+.form-input {
+  height: 25px;
+  width: 200px;
+  margin-top: 12px;
+}
